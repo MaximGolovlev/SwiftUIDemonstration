@@ -14,7 +14,6 @@
 		FA2D3C312507C5480056126F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2D3C2F2507C5480056126F /* LaunchScreen.storyboard */; };
 		FA2D3C3B2507C56A0056126F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C3A2507C56A0056126F /* FeedView.swift */; };
 		FA2D3C3D2507C5C60056126F /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C3C2507C5C60056126F /* FeedViewModel.swift */; };
-		FA2D3C402507C60F0056126F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C3F2507C60F0056126F /* Logger.swift */; };
 		FA2D3C452507C61E0056126F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C432507C61E0056126F /* User.swift */; };
 		FA2D3C482507C6240056126F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C472507C6240056126F /* UserService.swift */; };
 		FA2D3C522507C6280056126F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C4C2507C6280056126F /* APIService.swift */; };
@@ -32,7 +31,6 @@
 		FA2D3C742507E0B70056126F /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C4F2507C6280056126F /* SessionManager.swift */; };
 		FA2D3C752507E0B90056126F /* UserApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C5A2507D6EE0056126F /* UserApiRouter.swift */; };
 		FA2D3C762507E0BD0056126F /* ApiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C572507C75D0056126F /* ApiErrors.swift */; };
-		FA2D3C772507E0C10056126F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C3F2507C60F0056126F /* Logger.swift */; };
 		FA2D3C782507E0C40056126F /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C5E2507DA8E0056126F /* UserView.swift */; };
 		FA2D3C792507E0C60056126F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C5D2507DA8E0056126F /* UserViewModel.swift */; };
 		FA2D3C7A2507E0C80056126F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C3A2507C56A0056126F /* FeedView.swift */; };
@@ -59,7 +57,6 @@
 		FA2D3C322507C5480056126F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2D3C3A2507C56A0056126F /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		FA2D3C3C2507C5C60056126F /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
-		FA2D3C3F2507C60F0056126F /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		FA2D3C432507C61E0056126F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FA2D3C472507C6240056126F /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		FA2D3C4C2507C6280056126F /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
@@ -118,7 +115,6 @@
 				FA2D3C462507C6240056126F /* ApiServices */,
 				FA2D3C562507C7470056126F /* Enums */,
 				FA2D3C412507C61E0056126F /* Models */,
-				FA2D3C3E2507C60F0056126F /* Manager */,
 				FA2D3C382507C5510056126F /* Modules */,
 				FA2D3C242507C5460056126F /* AppDelegate.swift */,
 				FA2D3C262507C5460056126F /* SceneDelegate.swift */,
@@ -154,14 +150,6 @@
 				FA2D3C3C2507C5C60056126F /* FeedViewModel.swift */,
 			);
 			path = Feed;
-			sourceTree = "<group>";
-		};
-		FA2D3C3E2507C60F0056126F /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				FA2D3C3F2507C60F0056126F /* Logger.swift */,
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		FA2D3C412507C61E0056126F /* Models */ = {
@@ -329,7 +317,6 @@
 				FA2D3C252507C5460056126F /* AppDelegate.swift in Sources */,
 				FA2D3C582507C75D0056126F /* ApiErrors.swift in Sources */,
 				FA2D3C5B2507D6EE0056126F /* UserApiRouter.swift in Sources */,
-				FA2D3C402507C60F0056126F /* Logger.swift in Sources */,
 				FA2D3C482507C6240056126F /* UserService.swift in Sources */,
 				FA2D3C272507C5460056126F /* SceneDelegate.swift in Sources */,
 				FA2D3C5F2507DB470056126F /* UserView.swift in Sources */,
@@ -353,7 +340,6 @@
 				FA2D3C682507DEA40056126F /* SwiftUiDemonstrationTests.swift in Sources */,
 				FA2D3C7A2507E0C80056126F /* FeedView.swift in Sources */,
 				FA2D3C752507E0B90056126F /* UserApiRouter.swift in Sources */,
-				FA2D3C772507E0C10056126F /* Logger.swift in Sources */,
 				FA2D3C742507E0B70056126F /* SessionManager.swift in Sources */,
 				FA2D3C732507E0B50056126F /* Router.swift in Sources */,
 				FA2D3C782507E0C40056126F /* UserView.swift in Sources */,
