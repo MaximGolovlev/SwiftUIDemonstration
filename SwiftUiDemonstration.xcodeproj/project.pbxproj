@@ -16,9 +16,6 @@
 		FA2D3C3D2507C5C60056126F /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C3C2507C5C60056126F /* FeedViewModel.swift */; };
 		FA2D3C452507C61E0056126F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C432507C61E0056126F /* User.swift */; };
 		FA2D3C482507C6240056126F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C472507C6240056126F /* UserService.swift */; };
-		FA2D3C522507C6280056126F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C4C2507C6280056126F /* APIService.swift */; };
-		FA2D3C542507C6280056126F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C4E2507C6280056126F /* Router.swift */; };
-		FA2D3C552507C6280056126F /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C4F2507C6280056126F /* SessionManager.swift */; };
 		FA2D3C582507C75D0056126F /* ApiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C572507C75D0056126F /* ApiErrors.swift */; };
 		FA2D3C5B2507D6EE0056126F /* UserApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C5A2507D6EE0056126F /* UserApiRouter.swift */; };
 		FA2D3C5F2507DB470056126F /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C5E2507DA8E0056126F /* UserView.swift */; };
@@ -26,15 +23,18 @@
 		FA2D3C682507DEA40056126F /* SwiftUiDemonstrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C672507DEA40056126F /* SwiftUiDemonstrationTests.swift */; };
 		FA2D3C6F2507DF120056126F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C472507C6240056126F /* UserService.swift */; };
 		FA2D3C712507E0850056126F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C432507C61E0056126F /* User.swift */; };
-		FA2D3C722507E0A60056126F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C4C2507C6280056126F /* APIService.swift */; };
-		FA2D3C732507E0B50056126F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C4E2507C6280056126F /* Router.swift */; };
-		FA2D3C742507E0B70056126F /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C4F2507C6280056126F /* SessionManager.swift */; };
 		FA2D3C752507E0B90056126F /* UserApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C5A2507D6EE0056126F /* UserApiRouter.swift */; };
 		FA2D3C762507E0BD0056126F /* ApiErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C572507C75D0056126F /* ApiErrors.swift */; };
 		FA2D3C782507E0C40056126F /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C5E2507DA8E0056126F /* UserView.swift */; };
 		FA2D3C792507E0C60056126F /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C5D2507DA8E0056126F /* UserViewModel.swift */; };
 		FA2D3C7A2507E0C80056126F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C3A2507C56A0056126F /* FeedView.swift */; };
 		FA2D3C7B2507E0CB0056126F /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D3C3C2507C5C60056126F /* FeedViewModel.swift */; };
+		FA7949BC2507E72800048D9A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7949B92507E72800048D9A /* APIService.swift */; };
+		FA7949BD2507E72800048D9A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7949B92507E72800048D9A /* APIService.swift */; };
+		FA7949BE2507E72800048D9A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7949BA2507E72800048D9A /* Router.swift */; };
+		FA7949BF2507E72800048D9A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7949BA2507E72800048D9A /* Router.swift */; };
+		FA7949C02507E72800048D9A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7949BB2507E72800048D9A /* SessionManager.swift */; };
+		FA7949C12507E72800048D9A /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7949BB2507E72800048D9A /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +59,6 @@
 		FA2D3C3C2507C5C60056126F /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		FA2D3C432507C61E0056126F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FA2D3C472507C6240056126F /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
-		FA2D3C4C2507C6280056126F /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
-		FA2D3C4E2507C6280056126F /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		FA2D3C4F2507C6280056126F /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		FA2D3C572507C75D0056126F /* ApiErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrors.swift; sourceTree = "<group>"; };
 		FA2D3C5A2507D6EE0056126F /* UserApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiRouter.swift; sourceTree = "<group>"; };
 		FA2D3C5D2507DA8E0056126F /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
@@ -69,6 +66,9 @@
 		FA2D3C652507DEA40056126F /* SwiftUiDemonstrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiDemonstrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2D3C672507DEA40056126F /* SwiftUiDemonstrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiDemonstrationTests.swift; sourceTree = "<group>"; };
 		FA2D3C692507DEA40056126F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7949B92507E72800048D9A /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FA7949BA2507E72800048D9A /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FA7949BB2507E72800048D9A /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		FA2D3C232507C5460056126F /* SwiftUiDemonstration */ = {
 			isa = PBXGroup;
 			children = (
-				FA2D3C492507C6280056126F /* API */,
+				FA7949B82507E72800048D9A /* API */,
 				FA2D3C592507D6DA0056126F /* ApiRouters */,
 				FA2D3C462507C6240056126F /* ApiServices */,
 				FA2D3C562507C7470056126F /* Enums */,
@@ -168,17 +168,6 @@
 			path = ApiServices;
 			sourceTree = "<group>";
 		};
-		FA2D3C492507C6280056126F /* API */ = {
-			isa = PBXGroup;
-			children = (
-				FA2D3C4C2507C6280056126F /* APIService.swift */,
-				FA2D3C4E2507C6280056126F /* Router.swift */,
-				FA2D3C4F2507C6280056126F /* SessionManager.swift */,
-			);
-			name = API;
-			path = ../../DemonstrationApp/DemonstrationApp/API;
-			sourceTree = "<group>";
-		};
 		FA2D3C562507C7470056126F /* Enums */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +200,16 @@
 				FA2D3C692507DEA40056126F /* Info.plist */,
 			);
 			path = SwiftUiDemonstrationTests;
+			sourceTree = "<group>";
+		};
+		FA7949B82507E72800048D9A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FA7949B92507E72800048D9A /* APIService.swift */,
+				FA7949BA2507E72800048D9A /* Router.swift */,
+				FA7949BB2507E72800048D9A /* SessionManager.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,15 +317,15 @@
 				FA2D3C582507C75D0056126F /* ApiErrors.swift in Sources */,
 				FA2D3C5B2507D6EE0056126F /* UserApiRouter.swift in Sources */,
 				FA2D3C482507C6240056126F /* UserService.swift in Sources */,
+				FA7949BE2507E72800048D9A /* Router.swift in Sources */,
+				FA7949BC2507E72800048D9A /* APIService.swift in Sources */,
 				FA2D3C272507C5460056126F /* SceneDelegate.swift in Sources */,
 				FA2D3C5F2507DB470056126F /* UserView.swift in Sources */,
 				FA2D3C452507C61E0056126F /* User.swift in Sources */,
 				FA2D3C602507DB4B0056126F /* UserViewModel.swift in Sources */,
-				FA2D3C552507C6280056126F /* SessionManager.swift in Sources */,
 				FA2D3C3D2507C5C60056126F /* FeedViewModel.swift in Sources */,
 				FA2D3C3B2507C56A0056126F /* FeedView.swift in Sources */,
-				FA2D3C542507C6280056126F /* Router.swift in Sources */,
-				FA2D3C522507C6280056126F /* APIService.swift in Sources */,
+				FA7949C02507E72800048D9A /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,16 +333,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7949BF2507E72800048D9A /* Router.swift in Sources */,
 				FA2D3C6F2507DF120056126F /* UserService.swift in Sources */,
+				FA7949C12507E72800048D9A /* SessionManager.swift in Sources */,
 				FA2D3C792507E0C60056126F /* UserViewModel.swift in Sources */,
 				FA2D3C762507E0BD0056126F /* ApiErrors.swift in Sources */,
 				FA2D3C682507DEA40056126F /* SwiftUiDemonstrationTests.swift in Sources */,
 				FA2D3C7A2507E0C80056126F /* FeedView.swift in Sources */,
 				FA2D3C752507E0B90056126F /* UserApiRouter.swift in Sources */,
-				FA2D3C742507E0B70056126F /* SessionManager.swift in Sources */,
-				FA2D3C732507E0B50056126F /* Router.swift in Sources */,
+				FA7949BD2507E72800048D9A /* APIService.swift in Sources */,
 				FA2D3C782507E0C40056126F /* UserView.swift in Sources */,
-				FA2D3C722507E0A60056126F /* APIService.swift in Sources */,
 				FA2D3C712507E0850056126F /* User.swift in Sources */,
 				FA2D3C7B2507E0CB0056126F /* FeedViewModel.swift in Sources */,
 			);
